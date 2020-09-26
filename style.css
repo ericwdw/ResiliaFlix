@@ -47,7 +47,7 @@ body{
     justify-content: space-around;
 }
 
-.linha1{
+.corpo .container{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -85,4 +85,39 @@ body{
     font-weight: bold;
     font-family:georgia,serif ;
     text-align: center;
+}
+
+@media(max-width:768px){
+    
+    .cabecalho{
+        display: flex;
+        align-items: center;
+    }
+    
+    .container-cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        background: #2f2e2e;
+        width: 100%;
+        height: 150px;
+    }
+    .cabecalho-nav{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .cabecalho-botao{
+        margin: 0;
+        border-radius: 5%;
+        width: 100%;
+        padding: 0px;
+    }
+    .cabecalho-nav-link{
+        padding: 0;
+        width: 100%;
+    }
 }
