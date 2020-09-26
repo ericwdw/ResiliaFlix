@@ -41,13 +41,32 @@ body{
     border-color: #ffffff;
 }
 
+.corpo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.linha1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+}
+
+
+.imagem-poster{
+    width: 200px;
+    padding: 10px 12px 10px 12px;
+}
+
 .rodape-principal {
     display: flex;
     align-items:center;
     justify-content: space-around;
     background: #2f2e2e;
     padding: 5px;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
